@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>Leedom is learning React</code>.
+        <p className="coding">
+          Leedom is learning React.
         </p>
       </header>
     </div>

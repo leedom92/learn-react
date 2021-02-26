@@ -7,7 +7,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.coding {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  width: 25ch;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .1em solid #fff;
+  animation: typing 5s steps(25, end), blink .5s 5.5s step-end infinite alternate;
+}
+
+/*光标动画*/
+@keyframes blink {
+	50% {
+    border-color: transparent;
+  }
+}
+
+/*文本动画：从宽度为0开始*/
+@keyframes typing {
+	from {
+    width: 0;
+  }
 }
