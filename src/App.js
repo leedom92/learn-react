@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import CodePen from './components/CodePen'
-// import CodePen from 'react-codepen-box'
+import CodePen from 'codepen-react'
 
 function App() {
   return (
@@ -15,7 +14,7 @@ function App() {
           <CodePen
             user="leedom92"
             hash="gOLvgRe"
-            theme="39028"
+            theme="5"
           />
         </div>
       </header>
