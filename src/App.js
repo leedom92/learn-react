@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import CodePen from 'codepen-react'
+// import CodePen from 'codepen-react'
 
 function App() {
   return (
@@ -10,13 +10,13 @@ function App() {
         <p className="coding">
           Leedom is learning React.
         </p>
-        <div className="codepen-box">
+        {/* <div className="codepen-box">
           <CodePen
             user="leedom92"
             hash="gOLvgRe"
             theme="5"
           />
-        </div>
+        </div> */}
       </header>
     </div>
   );
